@@ -6,7 +6,7 @@ import joblib
 model = joblib.load("glass_model.pkl")
 
 # UI Title
-st.title("🔍 Glass Type Predictor")
+st.title("Glass Type Predictor")
 st.markdown("Enter chemical compositions below to predict the **Glass Type**:")
 
 # Inputs
